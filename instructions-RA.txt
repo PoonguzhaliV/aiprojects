@@ -1,0 +1,45 @@
+Steps for setting up the project
+
+1. Start the Springboot App (BFF)
+
+a. Extract the swagger.zip
+b. Open your Java IDE, import as maven project 
+c. run the maven project goal as: spring-boot:run
+
+Note: If your 8080 is occupied, run them in port 8081
+
+2. Start your NodeJs App (UI)
+
+a. Extract swagger-ui.zip
+b. Go to VSCode, Add the folder 
+c. Go to terminal, run  >>    npm install
+d. run >> npm start 
+e. Confirm http://localhost:3000/ is running
+
+3. Generate the code and make it to work 
+
+Note: Change your workspace and try !!
+
+a. Extract matschie.zip 
+b. Open your Java IDE, import as maven project 
+
+4. Generate tests
+
+a. Go to  http://localhost:3000/
+b. Choose one of the yml file
+c. parse and generate, download 
+d. copy it appropriate folders
+e. fix any compile time …
+
+Expectations
+
+1. Set up the projects
+2. Test for different yml for working
+3. Make a note of the failures as observations
+4. Run and confirm the correctness
+
+Next Step:
+
+1. Add Delete contract in the prompt
+2. See the impact
+3. Move to fine tuning !!
